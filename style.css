@@ -1,0 +1,84 @@
+ /*nav style */
+ .navbar-brand {
+    color:#ffffff
+    ;
+    font-family: 'Lilita One', sans-serif;
+    background-color: transparent;
+  }
+  .navbar-brand:visited{
+    color:#ffffff !important;
+    font-family: 'Lilita One', sans-serif;
+    background-color: transparent;
+  }
+  .navbar-brand:hover{
+    color: #ffffff;
+    font-family: 'Lilita One', sans-serif;
+    background-color: transparent;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
+  .navbar-brand:active{
+    color: #ffffff;
+    font-family: 'Lilita One', sans-serif;
+    background-color: transparent;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  }
+  
+  
+  .nav-link{
+    color: #ffffff;
+    font-family: 'Lilita One', sans-serif;
+  
+  }
+  .nav-link:visited{
+    color: #ffffff;
+    font-family: 'Lilita One', sans-serif;
+  }
+  .nav-link:hover{
+    color: #ffffff;
+    font-family: 'Lilita One', sans-serif;
+    background-color: #BF5700;
+    background-image: url("hookemhand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+  }
+  
+  .nav-link:active{
+    color: #BF5700;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .navbar-toggler-icon{
+    color: #ffffff ;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar{
+    background-color: #BF5700;
+   
+  }
+  .info{
+   background-color:rgb(255, 255, 255);
+  }
+  #logo{
+    background-color: transparent;
+    border-color: transparent;
+    background-image: url("whitelonghorn.png");
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-size: 40px;
+    background-position: center,center;
+    background-repeat: no-repeat;
+}
+.title{
+  
+}
+.titleDiv{
+    margin-top: 50000px;
+    background-color: #BF5700;
+}
