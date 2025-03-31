@@ -1,3 +1,13 @@
+
+body{
+    height:100%;
+    background: linear-gradient(0deg, rgb(69, 140, 206), rgb(46, 128, 204)31%, #74a3cf 100%) no-repeat;
+}
+
+html{
+  height:100%;
+  background: linear-gradient(0deg, rgb(69, 140, 206), rgb(46, 128, 204)31%, #74a3cf 100%) no-repeat;
+}
  /*nav style */
  .navbar-brand {
     color:#ffffff
@@ -11,7 +21,7 @@
     background-color: transparent;
   }
   .navbar-brand:hover{
-    color: #ffffff;
+    color: #f8f8f8;
     font-family: 'Lilita One', sans-serif;
     background-color: transparent;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
@@ -36,7 +46,7 @@
   .nav-link:hover{
     color: #ffffff;
     font-family: 'Lilita One', sans-serif;
-    background-color: #BF5700;
+    background-color: transparent;
     background-image: url("hookemhand.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +54,7 @@
   }
   
   .nav-link:active{
-    color: #BF5700;
+    color: #transparent;
     font-family: 'Lilita One', sans-serif;
   }
   
@@ -58,27 +68,29 @@
   }
 
   .navbar{
-    background-color: #BF5700;
+    background-color: rgba(97, 124, 150, 0);
    
   }
-  .info{
-   background-color:rgb(255, 255, 255);
-  }
+
   #logo{
     background-color: transparent;
     border-color: transparent;
-    background-image: url("whitelonghorn.png");
-    height: 60px;
-    width: 60px;
+    background-image: url("Group\ 1.png");
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     background-size: 40px;
     background-position: center,center;
     background-repeat: no-repeat;
+    text-shadow:1px 1px 10px #000000, 1px 1px 10px #000000;
 }
-.title{
-  
-}
+ /*nav style */
 .titleDiv{
-    margin-top: 50000px;
-    background-color: #BF5700;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: #fff;
+}
+.top{
+  background-image: url("Group\ 3.png");
 }
