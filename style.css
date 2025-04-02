@@ -1,7 +1,7 @@
 
 body{
     height:100%;
-    background: linear-gradient(0deg, rgb(69, 140, 206), rgb(46, 128, 204)31%, #74a3cf 100%) no-repeat;
+    background: linear-gradient(0deg, rgb(69, 140, 206), rgb(46, 128, 204)31%, rgb(24, 74, 121) 100%) no-repeat;
 }
 
 html{
@@ -76,21 +76,50 @@ html{
     background-color: transparent;
     border-color: transparent;
     background-image: url("Group\ 1.png");
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border-radius: 100%;
     background-size: 40px;
     background-position: center,center;
     background-repeat: no-repeat;
     text-shadow:1px 1px 10px #000000, 1px 1px 10px #000000;
+    margin-right:5px ;
 }
  /*nav style */
 .titleDiv{
     text-align: left;
-    margin-left: 20%;
-    margin-top: 10%;
+    padding-top: 190px;
+    padding-left: 25%;
     color: #fff;
 }
 .top{
   background-image: url("Group\ 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  margin-top: 0px;
+  background-size: contain;
+}
+hr {
+  height: 1px; 
+  color: #ffffff;
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.lines {
+  height: 1px; 
+  color: #ffffff;
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.titles{
+  text-decoration: underline;
+  color: #fff;
+  text-align: center;
 }
