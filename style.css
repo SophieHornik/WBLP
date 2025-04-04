@@ -57,7 +57,7 @@ html{
   }
   
   .nav-link:active{
-    color: #transparent;
+    color: transparent;
     font-family: 'Lilita One', sans-serif;
   }
   
@@ -130,9 +130,19 @@ hr {
   height: 250px;
   border-radius: 4%;
   margin-bottom: 20px;
+ justify-content: center;
+ text-align: center;
+ 
 }
 .jonPhoto{
   height: 500px;
   border-radius: 4%;
   margin-bottom: 20px;
 }
+.text{
+  text-align: center;
+  padding: 50px;
+  color: #ffffff;
+font-size: 1rem;
+}
+
