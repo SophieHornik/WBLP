@@ -1,0 +1,22 @@
+[
+    {
+      "image": "https://via.placeholder.com/300x200",
+      "title": "Card One",
+      "description": "This is the first card description."
+    },
+    {
+      "image": "https://via.placeholder.com/300x200",
+      "title": "Card Two",
+      "description": "This is the second card description."
+    },
+    {
+      "image": "https://via.placeholder.com/300x200",
+      "title": "Card Three",
+      "description": "This is the third card description."
+    },
+    {
+      "image": "https://via.placeholder.com/300x200",
+      "title": "Card Four",
+      "description": "This is the fourth card description."
+    }
+  ]
