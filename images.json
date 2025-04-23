@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "image_url": "images/IMG_1873.PNG",
+      "grade": 9,
+      "project": "Bridge Project",
+      "studentName": "Student 1"
+    },
+    {
+      "id": 2,
+      "image_url": "images/LED Sign.png",
+      "grade": 9,
+      "project": "LED Sign",
+      "studentName": "Student 2"
+      
+    },
+    {
+      "id": 3,
+      "image_url": "images/MiniGolf.jpg",
+      "grade": 9,
+      "project": "Mini Golf Project",
+      "studentName": "Student 3"
+    },
+    {
+      "id": 4,
+      "image_url": "images/Screenshot 2025-01-15 111103.png",
+      "grade": 9,
+      "project": "3D Printed hand",
+      "studentName": "Student 4"
+    },
+    {
+      "id": 5,
+      "image_url": "images/Screenshot 2025-01-15 110743.png",
+      "grade": 9,
+      "project": "LED Sign",
+      "studentName": "Student 5"
+    },
+    {
+      "id": 6,
+      "image_url": "images/Screenshot 2025-01-15 111731.png",
+      "grade": 9,
+      "project": "Robot Design",
+      "studentName": "Student 6"
+    }
+  ]

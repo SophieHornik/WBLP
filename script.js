@@ -1,32 +1,18 @@
-import { createApp, ref, onMounted } from 'vue';
-
-const Gallery = {
-  name: 'Gallery',
-  setup() {
-    const cards = ref([]);
-
-    onMounted(async () => {
-      const res = await fetch('data.json');
-      cards.value = await res.json();
-    });
-
-    return { cards };
+const vue_app = Vue.createApp({
+  created() {
+    // Fetch the images.json file and update the 'images' array
+    fetch("images.json")
+      .then((response) => response.json())
+      .then((json) => {
+        this.images = json; // Set the response to the images array
+      })
+      .catch((error) => console.error("Error loading images:", error));
   },
-  template: `
-    <div class="gallery-container">
-      <div class="card" v-for="(card, index) in cards" :key="index">
-        <img :src="card.image" :alt="card.title" />
-        <div class="card-content">
-          <div class="card-title">{{ card.title }}</div>
-          <div class="card-description">{{ card.description }}</div>
-        </div>
-      </div>
-    </div>
-  `
-};
+  data() {
+    return {
+      images: [] // Declare the images data array
+    };
+  }
+});
 
-const app = createApp({});
-app.component('gallery', Gallery);
-app.mount('#app');
-    
-   
+vue_app.mount("#vue_app");
