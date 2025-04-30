@@ -15,7 +15,7 @@ html{
 
  nav{
   text-align: right;
-  
+
  }
 
  .navbar-brand {
@@ -195,12 +195,12 @@ body {
 }
 
 .card1-front {
-  background: rgb(0, 0, 0);
+  background: #ADC0EB;
   border: 1px solid #e5e7eb;
 }
 
 .card1-back {
-  background: #B8D8D9;
+  background: #ADC0EB;
   color: white;
   transform: rotateY(180deg);
 }

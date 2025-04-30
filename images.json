@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "image_url": "images/IMG_1873.PNG",
+      "image_url": "wholefoods.jpg",
       "grade": 9,
       "project": "Bridge Project",
       "studentName": "Student 1"
     },
     {
       "id": 2,
-      "image_url": "images/LED Sign.png",
+      "image_url": "aaa.png",
       "grade": 9,
       "project": "LED Sign",
       "studentName": "Student 2"
@@ -16,21 +16,21 @@
     },
     {
       "id": 3,
-      "image_url": "images/MiniGolf.jpg",
+      "image_url": "openspace.jpg",
       "grade": 9,
       "project": "Mini Golf Project",
       "studentName": "Student 3"
     },
     {
       "id": 4,
-      "image_url": "images/Screenshot 2025-01-15 111103.png",
+      "image_url": "mhs.jpg",
       "grade": 9,
       "project": "3D Printed hand",
       "studentName": "Student 4"
     },
     {
       "id": 5,
-      "image_url": "images/Screenshot 2025-01-15 110743.png",
+      "image_url": "lhrg.png",
       "grade": 9,
       "project": "LED Sign",
       "studentName": "Student 5"
