@@ -16,7 +16,7 @@ html{
  nav{
   text-align: right;
   position: static;
-
+  background-color: rgb(24, 74, 121);
  }
  .navbar-nav {
   gap: 1.5rem; /* adds spacing between nav items */
@@ -106,7 +106,7 @@ html{
   background-repeat: no-repeat;
   background-position: center;
   min-height: 500px;
-  margin-top: 0px;
+  margin-top: 50px;
   background-size: contain;
 }
 hr {
@@ -306,3 +306,4 @@ top: 16px;
 top: 8px;
 }
 /* hamburger icon end */
+
