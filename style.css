@@ -17,6 +17,7 @@ html{
   text-align: right;
   position: static;
   background-color: rgb(24, 74, 121);
+  font-family: Julius Sans One;
  }
  .navbar-nav {
   gap: 1.5rem; /* adds spacing between nav items */
@@ -24,23 +25,23 @@ html{
  .navbar-brand {
     color:#ffffff
     ;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
     background-color: transparent;
   }
   .navbar-brand:visited{
     color:#ffffff !important;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
     background-color: transparent;
   }
   .navbar-brand:hover{
     color: #f8f8f8;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
     background-color: transparent;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
   }
   .navbar-brand:active{
     color: #ffffff;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
     background-color: transparent;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
   }
@@ -48,16 +49,16 @@ html{
   
   .nav-link{
     color: #ffffff;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
   
   }
   .nav-link:visited{
     color: #ffffff;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
   }
   .nav-link:hover{
-    color: #ffffff;
-    font-family: 'Lilita One', sans-serif;
+    color: #7bbde9;
+    font-family: Julius Sans One;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,12 +67,12 @@ html{
   
   .nav-link:active{
     color: transparent;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
   }
   
   .navbar-toggler-icon{
     color: #ffffff ;
-    font-family: 'Lilita One', sans-serif;
+    font-family: Julius Sans One;
     position: relative;
   }
   
@@ -98,14 +99,19 @@ html{
 .titleDiv{
     text-align: left;
     padding-top: 190px;
-    padding-left: 25%;
+    padding-left: 20%;
     color: #fff;
+    font-family: Julius Sans One;
+    font-size: larger;
+}
+.title{
+  font-size: 4rem;
 }
 .top{
   background-image: url("Group\ 3.png");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
+  min-height: 100vh;
   margin-top: 50px;
   background-size: contain;
 }
@@ -131,6 +137,7 @@ hr {
   text-decoration: underline;
   color: #fff;
   text-align: center;
+  font-family: Julius Sans One;
 }
 .familyPhoto{
   height: 250px;
@@ -150,6 +157,7 @@ hr {
   padding: 50px;
   color: #ffffff;
 font-size: 1rem;
+font-family: "Inder", sans-serif;
 }
 
 body {
@@ -307,3 +315,13 @@ top: 8px;
 }
 /* hamburger icon end */
 
+.julius-sans-one-regular {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inder-regular {
+  font-family: "Inder", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

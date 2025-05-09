@@ -2,44 +2,65 @@
     {
       "id": 1,
       "image_url": "wholefoods.jpg",
-      "grade": 9,
-      "project": "Bridge Project",
-      "studentName": "Student 1"
+      "grade": "Attracting Quality Commercial Rates",
+      "project": "Commercial Rates",
+      "studentName": "XXXX"
     },
     {
       "id": 2,
       "image_url": "aaa.png",
-      "grade": 9,
-      "project": "LED Sign",
-      "studentName": "Student 2"
+      "grade": "Brought Marlboro to a tripple A bond rating!",
+      "project": "Tripple A Rating",
+      "studentName": "XXXX"
       
     },
     {
       "id": 3,
       "image_url": "openspace.jpg",
-      "grade": 9,
-      "project": "Mini Golf Project",
-      "studentName": "Student 3"
+      "grade": "Succcessfully controlled growth and maintained Open space.",
+      "project": "Controlling Growth",
+      "studentName": "XXXX"
     },
     {
       "id": 4,
       "image_url": "mhs.jpg",
-      "grade": 9,
-      "project": "3D Printed hand",
-      "studentName": "Student 4"
+      "grade": "Successfully supported Marlboro schools with saftey and funding",
+      "project": "Marlboro Schools",
+      "studentName": "2008"
     },
     {
       "id": 5,
       "image_url": "lhrg.png",
-      "grade": 9,
-      "project": "LED Sign",
-      "studentName": "Student 5"
+      "grade": "Founder and chair of LHRG Private Lender Law",
+      "project": "LHRG",
+      "studentName": "XXXX"
     },
     {
       "id": 6,
-      "image_url": "images/Screenshot 2025-01-15 111731.png",
-      "grade": 9,
-      "project": "Robot Design",
-      "studentName": "Student 6"
+      "image_url": "npla.png",
+      "grade": "NPLA owner",
+      "project": "National Private Lenders Assosiation",
+      "studentName": "2022"
+    },
+    {
+      "id": 7,
+      "image_url": "njlm.jpg",
+      "grade": "NJ Mayor's Hall of Fame",
+      "project": "New Jersey League of Municipalities",
+      "studentName": "XXXX"
+    },
+    {
+      "id": 8,
+      "image_url": "mhslogo.jpg",
+      "grade": "MHS Hall of Fame",
+      "project": "Marlboro High School",
+      "studentName": "XXXX"
+    },
+    {
+      "id": 9,
+      "image_url": "dp.jpg",
+      "grade": "Due Process Cup Champ",
+      "project": "Due Process",
+      "studentName": "2025"
     }
   ]

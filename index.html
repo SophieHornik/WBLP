@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg bg-body-white fixed-top">
       <div class="container-fluid">
         <button id="logo"> <a class="navbar-brand underline-closing" href="#top"></button>
-        Jonathan L. Hornik</a>
+       <b>Jonathan L. Hornik</b> </a>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <!-- navbar collapse button -->
@@ -43,13 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 400px">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#Biography">Biography</a>
+              <a class="nav-link" aria-current="page" href="#top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#Accomplishments">Accomplishments</a>
+              <a class="nav-link" aria-current="page" href="#bio">Biography</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#Donate">Donate</a>
+              <a class="nav-link" aria-current="page" href="#vue_app">Accomplishments</a>
             </li>
             <li class="nav-item"></li>
             <a class="nav-link" aria-current="page" href="#Contact">Contact</a>
@@ -63,15 +63,16 @@
     <!-- Nav Bar ENDS-->
   </header>
   <main>
-    <div class="top">
+    <div class="top" id="top">
       <div class="titleDiv">
-        <h1 class="title">Jonathan L. Hornik</h1>
+        <h1 class="title"><b>Jonathan L. Hornik</b></h1>
         <h3 class="subTitle">Mayor of Marlboro</h3>
       </div>
     </div>
+    <div id="bio"></div>
     <div class="titles">
       <hr class="lines">
-      <h1 class="titles">Biography</h1>
+      <h1 class="titles"><b>Biography</b></h1>
     </div>
     <div class="container">
       <div class="row text-center">
@@ -118,7 +119,7 @@
 
 <!--gallery-->
 <hr class="lines">
-<h1 class="titles">Accomplishments</h1>
+<h1 class="titles"><b>Accomplishments</b></h1>
 <div id="vue_app" class="container img-fluid">
   <div class="row justify-content-center">
     <!-- Loop through images -->
@@ -137,8 +138,8 @@
             
             <ul class="nextLine">
               <li><p>{{ image.project }}</p></li>
-              <li><p>Grade: {{ image.grade }}</p></li>
-              <li><p>By: {{ image.studentName }}</p></li>
+              <li><p>Description: {{ image.grade }}</p></li>
+              <li><p>Year: {{ image.studentName }}</p></li>
             </ul>
           </div>
         </div>
@@ -146,7 +147,9 @@
     </div>
   </div>
 </div>
-
+<!--Gal End-->
+<hr class="lines">
+<h1 class="titles" id="Contact"><b>Contact</b></h1>
   </main>
   <footer>
     <!-- place footer here -->
