@@ -157,7 +157,7 @@ hr {
   padding: 50px;
   color: #ffffff;
 font-size: 1rem;
-font-family: "Inder", sans-serif;
+font-family: "Inder";
 }
 
 body {
@@ -211,6 +211,7 @@ body {
   background: #ADC0EB;
   color: white;
   transform: rotateY(180deg);
+  font-family: "Julius Sans One";
 }
 
 /* Ensure the image fits within the card */
@@ -324,4 +325,43 @@ top: 8px;
   font-family: "Inder", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+footer{
+  background-color: transparent;
+  text-align: center;
+}
+.soc{
+  background-color: transparent;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  border-color: #74a3cf;
+  margin-bottom: 200px;
+}
+.soc:hover{
+  opacity: 0.5;
+}
+#insta{
+  background-image: url('insta.png');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+#li{
+  background-image: url('li.jpg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+#fb{
+  background-image: url('fb.jpg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+#phone{
+  background-image: url('pgone.jpg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
 }
